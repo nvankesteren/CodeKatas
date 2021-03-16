@@ -1,4 +1,4 @@
-# Binairo Kata
+# Binairo Solver
 
 Binairo is a logic puzzle game in which your goal is to fill a square grid (typically 12x12) with 1's and 0's.
 
