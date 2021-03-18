@@ -28,7 +28,8 @@ Create a class `BinairoSolver` with a function `string Solve(string)` that takes
 
 1. Create a new class `Game` that sets up a board (you can use one of the examples below).
 2. Use the BinairoSolver with each horizontal and vertical line until no more empty space can be filled.
-3. Have the ability to print the board.
+3. Make sure the output of the BinairoSolver is written back to the board.
+4. Have the ability to print the board.
 
 Example boards:
 
