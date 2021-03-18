@@ -6,8 +6,8 @@ The rules of the game are:
 
 1. Fill all empty spaces with either a `0` or a `1`.
 2. There should never be more than two of the same numbers next to each other (applies to rows and columns).
-3. Every filled line and column should contain the same amount of numbers.
-4. Each line of numbers should be a unique combination. The same goes for columns.
+3. Each row and column should contain the same amount of 0's and 1's.
+4. Each row should have a unique combination of numbers. The same goes for columns.
 
 > Do the exercises one at a time. Do *not* start with a board.
 
@@ -22,13 +22,13 @@ Create a class `BinairoSolver` with a function `string Solve(string)` that takes
 ## Exercise 2 
 
 1. Make sure all the actions from exercise 1 repeat themselves until no other empty spaces can be filled.
-2. Throw clear exceptions when invalid input is given, like an uneven number of positions, invalid position values, etc.
+2. Throw clear exceptions when invalid input is given, like an uneven number of positions, invalid position values (other than `0`, `1` or `.`), etc.
 
 ## Exercise 3
 
 1. Create a new class `Game` that sets up a board (you can use one of the examples below).
-2. Use the BinairoSolver with each horizontal and vertical line until no more empty space can be filled.
-3. Make sure the output of the BinairoSolver is written back to the board.
+2. Use the BinairoSolver with each row and column until no more empty space can be filled; avoid infinite loops.
+3. Make sure the output of the BinairoSolver is written back to appropriate row or column on the board.
 4. Have the ability to print the board.
 
 Example boards:
