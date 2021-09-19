@@ -4,6 +4,8 @@ You write a class called Wrapper, that has a single static function named wrap t
 
 Like a word processor, break the line by replacing the last space in a line with a newline.
 
+If a single word does not fit an entire line, split the word itself.
+
 ## Extra
 
 Add hyphenation. Create a hardcoded list with known words with syllables, for example:
